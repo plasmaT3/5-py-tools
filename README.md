@@ -1,4 +1,5 @@
 # 5-py-tools
+
 Coleção de 5 miniaplicativos feitos em **Python** com **interfaces gráficas modernas**, utilizando a biblioteca `customtkinter`.
 
 ## 🧰 Ferramentas incluídas
@@ -42,4 +43,16 @@ Exemplo:
 
 🔖 Licença
 Este projeto é livre para uso pessoal ou acadêmico. Contribuições são bem-vindas!
+---
+
+## 👤 Autor
+
+**Juan Carlos**
+
+- 🇧🇷 Desenvolvedor independente em Anápolis - GO
+- 💼 Projetos voltados para automações e ferramentas gráficas em Python
+- 🔗 GitHub: [@plasmaT3](https://github.com/plasmaT3)
+
+---
+
 
