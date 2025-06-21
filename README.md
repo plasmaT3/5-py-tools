@@ -44,6 +44,28 @@ Exemplo:
 🔖 Licença
 Este projeto é livre para uso pessoal ou acadêmico. Contribuições são bem-vindas!
 ---
+## Imagens
+
+import os
+
+# Caminho da raiz do projeto
+caminho = '.'
+
+pastas = [f for f in os.listdir(caminho) if os.path.isdir(os.path.join(caminho, f))]
+
+imagens = [f"{pasta}.png" for pasta in pastas]
+
+with open('imagens_readme.md', 'w', encoding='utf-8') as f:
+    for img in imagens:
+        if os.path.isfile(os.path.join(caminho, img)):
+            f.write(f"![{img}]({img})\n\n")
+
+print("Arquivo imagens_readme.md criado com os links das imagens.\n")
+
+print("Para adicionar as imagens no git, rode os comandos abaixo:\n")
+for img in imagens:
+    if os.path.isfile(os.path.join(caminho, img)):
+        print(f"git add {img}")
 
 ## 👤 Autor
 
